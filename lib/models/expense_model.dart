@@ -4,6 +4,7 @@ import 'package:uuid/uuid.dart';
 
 const uuid = Uuid();
 
+// * 한국 format
 final formatter = DateFormat("yyyy년 MM월 dd일");
 
 enum Category { food, travel, work, etc }
